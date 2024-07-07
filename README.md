@@ -1,27 +1,26 @@
-========================================================================================================
-# STEPS TO COMPILE:
+# MIR PACKAGE MANAGER
 
-1.Run the set_env.sh script to set up the Environment.
-2.Trigger the Makefile for generating "mir" executable using "make" command.
-========================================================================================================
+### STEPS TO COMPILE:
 
-# QUICK INSTALLATION:
+   1. Run the set_env.sh script to set up the Environment.
+   2. Trigger the Makefile for generating `mir` executable using `make` command.
 
-1.From quick installation just push the mir binary to the /usr/bin/ directory of your embedded device.
-========================================================================================================
+### QUICK INSTALLATION:
 
-# FULL INSTALLTION:
+   1. From quick installation just push the mir binary to the `/usr/bin/` directory of your embedded device.
 
-1.Add the Mir Makefile to your build configuration as new recipe.
-========================================================================================================
 
-# USAGE:
+### FULL INSTALLTION:
 
-* mir start
+   1. Add the Mir Makefile to your build configuration as new recipe.
+
+
+### USAGE:
+
+* `mir start`
     * One time action to generate resource map of packages and libraries that will not be affected by mir.
-* mir install <pkg_name>
+* `mir install <pkg_name>`
     * Installs the package name specified.
-* mir remove  <pkg_name>
+* `mir remove  <pkg_name>`
     * Uninstalls the mir managed package.
-=======================================================================================================
 
