@@ -150,7 +150,7 @@ void http_post_request(const char *url, const char *data) {
     curl_global_cleanup();
 }
 
-int main(int argc,char argv[])
+/*int main(int argc,char argv[])
 {
     const char *get_url = "https://jsonplaceholder.typicode.com/posts";
     //const char *get_url = "https://4bb57fc2-219e-421e-86b4-4ffda6bf1b3b.mock.pstmn.io/matches";
@@ -167,4 +167,4 @@ int main(int argc,char argv[])
 
 
   return 1;
-}
+}*/
